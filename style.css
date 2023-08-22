@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Work+Sans:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:ital@1&family=Work+Sans:ital,wght@1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:violet;
+    color: antiquewhite;
+}
+h1{
+    font-family: 'Fascinate' , cursive;
+    color: orangered;
+    font-size: 60px;
+    font-weight: 900;
+}
+h3{
+    position: absolute;
+    left: 590px;
+    top: 100px;
+    background-color: aliceblue;
+    color: black;
+    width: 163px;
+    height: 24px;
+}
+h4{
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+}
+.block{
+    text-align: center;
+}
+canvas{
+    display: block;
+    background-color: azure;
+    margin: 20px;
+}
+input{
+    margin: 20px 0px 0px 20px;
+}
