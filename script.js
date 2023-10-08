@@ -1,5 +1,5 @@
 const paintCanvas = document.querySelector(".js-paint")
-const context = paintCanvas.getcontext("2d")
+const context = paintCanvas.getContext("2d")
 
 const colorPicker = document.querySelector(".js-color-picker")
 
@@ -14,8 +14,8 @@ const lineWidthLabel = document.querySelector(".js-range-value")
 
 lineWidthRange.addEventListener("input", event =>{
     const width = event.target.value
-    lineWidthLabel.innerhtml = width
-    context.linewidth = width
+    lineWidthLabel.innerHTML = width
+    context.lineWidth = width
 })
 let x=0, y=0
 let isMouseDown = false
@@ -44,5 +44,5 @@ const drawLine = (event) =>{
 
 paintCanvas.addEventListener("mousedown" , startDrawing)
 paintCanvas.addEventListener("mousemove" , drawLine)
-paintCanvas.addEventListener("mouseup", stopDrawing)
-paintCanvas.addEventListener("mouseout", stopDrawing)
+paintCanvas.addEventListener("mouseup" , stopDrawing)
+paintCanvas.addEventListener("mouseout" , stopDrawing)
